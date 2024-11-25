@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+}
+header {
+    background:black;
+    padding: 50px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+}
+.logo{
+    position: fixed;
+    width: 250px;
+    height: auto;
+}
+nav ul:hover{
+    color: orange;
+    transition: 0.5;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content:right;
+    gap: 50px;
+    position: fixed;
+    right: 150px;
+}
+.template{
+    background-color:black;
+    padding: 100px;
+    display: flex;
+}
+.athlete-1{
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style:italic;
+    margin-top:-150px;
+    margin-left: 50px;
+}
+.leo-bolt{
+    background-color: white;
+    color: black;
+    padding: 50px;
+     
+
+}
+.usain-st{
+    font-style: italic;
+    font-weight:bolder;
+    padding: 30px;
+}
+.profile{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.profile-1{
+    background-color: burlywood;
+    padding: 30px;
+    margin-left: -30px;
+    margin-top: 50px;
+    color: black;
+}
+.height{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.pound{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.Trelawny{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.jam{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.august{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.king{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.coach{
+    background-color: black;
+    padding: 100px;
+    display:flex;
+
+}
+.mills{
+    font-weight: 900;
+    padding: 10px;
+    font-size: 50px;
+}.image{
+    margin-top:-250px
+}
+.gold-medal{
+    background-color: white;
+    padding: 200px;
+    color: black;
+    margin-top: -500px;
+    margin:100px
+    
+    
+
+}
+.olympic{
+    background-color:burlywood;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: -250px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.Gold{
+    font-style: italic;
+}
+.medal{
+    display:flex;
+    background-color: black;
+    margin-top: -350px;
+    padding: 100px;
+}
+.youtube-bolt{
+    background-color: rgb(39, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+.video{
+    width: 700;
+    height: 400;
+}
+.usain-bolt-album{
+    background-color: black;
+    display: flex;
+}
+.usainbolt{
+    background-color: black;
+    display: flex;
+    padding-top: 50px;
+    background-position: center;
+}
+.bolt-social-media{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    color:white;
+    height:30vh;
+    padding: 30px;
+   
+}
+
+.icons{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+}
+.logo-2{
+    width: 300px;
+    
+    
+}
+.fa-instagram{
+    font-size: 35px;
+    color:white;
+}
+.fa-facebook{
+    font-size: 35px;
+    color:white;
+}
+.fa-square-twitter{
+font-size: 35px;
+color:white;
+}
+.fa-youtube{
+font-size: 35px;
+color: white;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+footer:hover{
+    color: orange;
+}

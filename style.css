@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+   
+}
+header {
+    background:black;
+    padding: 50px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    
+
+
+
+}
+.logo{
+    position: fixed;
+    width: 250px;
+    height: auto;
+    
+
+}
+nav ul:hover{
+    color: orange;
+    transition: 0.5;
+    cursor: pointer;
+    
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content:right;
+    gap: 50px;
+    position: fixed;
+    right: 150px;
+    
+    
+    
+
+
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.bolt-collection{
+    display: flex;
+    width: 66vw;
+    
+}
+.youtube-container{
+    background-color:rgba(0, 0, 0, 0.475);
+    height: 100vh;
+    width: 100vw;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding:6%;
+    
+}
+iframe{
+    width: 600;
+    height: 315;
+    max-width: 100%;
+}
+.bolt-pictures{
+    background-color: black;
+    height: 160vh;
+    width: 100vw;
+    
+    
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    padding:20px ;
+    
+    
+}
+.bolt-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 18%;
+
+}
+
+    
+
+.bolt-1{
+background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/465882059_18465897739057161_6393630518253716754_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-position: center;
+    background-size:100%;
+    margin-bottom: 10px;
+
+}
+.bolt-2{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/465073157_438298525964501_6197506866824130926_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-position: center;
+    background-size: 100%;
+    
+    
+}
+.bolt-3{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/465135748_505171639183521_2467194815761366953_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+
+}
+.bolt-4{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/464792893_526003886887572_6338409863880630820_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+}
+
+.bolt-5{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/464982237_2019179381929729_5299767996590066760_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+    margin-bottom: 10px;
+
+}
+.bolt-6{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/464280103_1293872295105002_4811539791413168488_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+}
+.bolt-7{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/463816390_497664299941255_5828033194980667454_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+
+}
+.bolt-8{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/462742096_915054607188250_6995127444605912180_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+
+}
+.bolt-9{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/462794687_542289078346409_3754524394278671861_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+
+}
+.bolt-10{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/462261895_1533824514680644_8496382172068701058_nfull.webp);
+    width:200px;
+    height: 200px;
+    background-size: cover;
+
+}
+.bolt-11{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/461912965_845472711042250_5628001006511122521_nfull.webp);
+    width:200px;
+    height: 200px;
+    background-size:150%;
+    
+
+
+}
+.bolt-12{
+    background-image: url(https://usainbolt.com/wp-content/uploads/sb-instagram-feed-images/461769788_507317372183370_3094453232455527542_nlow.webp);
+    width:200px;
+    height: 200px;
+    background-size: 100%;
+
+}
+
+.parallax-image{
+    height: 500px;
+    background-image: url("img/usainbolt2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.bolt-social-media{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    color:white;
+    height:30vh;
+    padding: 30px;
+   
+}
+
+.icons{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+    
+    
+    
+}
+.logo-2{
+    width: 300px;
+    
+    
+}
+.fa-instagram{
+    font-size: 35px;
+    color:white;
+}
+.fa-facebook{
+    font-size: 35px;
+    color:white;
+}
+.fa-square-twitter{
+font-size: 35px;
+color:white;
+}
+.fa-youtube{
+font-size: 35px;
+color: white;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+footer:hover{
+    color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+
